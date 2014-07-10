@@ -23,7 +23,7 @@ gem uninstall -V rspec-mocks -v 3.0.2
 gem uninstall -V rspec-core -v 3.0.2
 
 # update system
-yum -y update puppet hiera facter tzdata
+yum -y update puppet puppet-server hiera facter tzdata
 
 # install puppet skeleton
 cd ~
